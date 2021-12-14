@@ -2,11 +2,12 @@ import { LandingForm } from "../../components/LandingForm"
 import styles from "./styles.module.sass"
 import { TiHomeOutline, TiSocialDribbble, TiSocialGithub, TiSocialInstagram, TiSocialLinkedin } from "react-icons/ti";
 import image from "../../images/image.svg"
+import { Menu } from "../../components/Menu";
 
 export function Home () {
     return (
         <section className={styles.contentWrapper}>
-            <nav>Menu</nav>
+            <Menu/>
             <section>
                 <div className={styles.contentLandPage}>
                     <div className={styles.text}>
