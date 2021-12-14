@@ -1,0 +1,50 @@
+.contentWrapper
+    padding: 2rem
+    margin: 0
+
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: center
+
+    background: linear-gradient(153deg, #7400b8 0%, #6930c3 35%, #5e60ce 100%)
+    color: #fff
+    & form
+        display: flex
+        flex-direction: column
+        & input
+            background: #e2e1e1
+            outline: none
+            margin: .5rem 0
+            padding: .7rem
+            border: none
+            border-bottom: solid 3px #4CC9F0
+            &:focus
+                border-bottom: solid 3px #F71735
+        & div:not(.button)
+            display: flex
+            align-items: start
+            & > input
+                margin-right: .5rem
+                accent-color: #4CC9F0
+            & a
+                color: #4CC9F0
+                text-decoration: none
+        & hr
+            width: 50%
+            background: #4CC9F0
+            border: solid 1px #00000000
+        & .button button
+            font-weight: bold
+            background: #e2e1e1
+            color: #5e60ce
+            padding: 1rem 3rem
+            margin-top: 2rem
+            border: solid 3px #5e60ce
+            transition: all .7s
+            cursor: pointer
+            &:hover
+                background: #5e60ce
+                border: solid 3px #e2e1e1
+                color: #e2e1e1
+

@@ -1,6 +1,8 @@
+import styles from './styles.module.sass'
+
 export function LandingForm () {
     return (
-        <aside>
+        <aside className={styles.contentWrapper}>
             <form>
                 <label htmlFor="name">Nome</label>
                 <input type="text" name="name" id="name" />
@@ -13,12 +15,17 @@ export function LandingForm () {
 
                 <hr />
 
-                <input type="checkbox" name="marketing" id="marketing" />
-                <label htmlFor="marketing">Desejo receber e-mail com atualização de material.</label>
-                <input type="checkbox" name="police" id="police" />
-                <label htmlFor="police">Li e aceito as políticas de privacidade.</label>
                 <div>
-                    <button>Quero e-book</button>
+                    <input type="checkbox" name="marketing" id="marketing" />
+                    <label htmlFor="marketing">Desejo receber e-mail com atualização de material.</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="police" id="police" />
+                    <label htmlFor="police">Li e aceito as <a href="#">políticas de privacidade</a>.</label>
+                </div>
+                
+                <div className={styles.button}>
+                    <button>Quero E-Book</button>
                 </div>
             </form>
         </aside>
