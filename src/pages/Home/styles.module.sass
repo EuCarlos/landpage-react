@@ -1,0 +1,44 @@
+.contentWrapper
+    position: relative
+    & section
+        
+        height: 100vh
+        overflow: auto
+
+        background: #EFD8FD
+        & h1
+            font-size: 2rem
+            color: #560BAD
+            line-height: 0
+        & h2
+            color: #84609b
+            line-height: 0
+        & .contentLandPage
+            width: 56rem
+            padding: 4.5rem
+            & .text
+                & > div
+                    display: flex
+                    justify-content: center
+                    & img
+                        width: 20rem
+            & .share 
+                display: flex
+                flex-direction: column
+                justify-content: center
+                width:  30rem
+                align-self: center
+                .buttonsShare
+                    display: flex
+                    align-items: center
+                    // justify-content: space-between
+                    & > a
+                        color: #560bad
+                    & > a:not(a:first-child)
+                        margin-left: 2rem
+        & .ladingForm
+            position: absolute
+            top: 0
+            right: 5rem
+
+            width: 25rem
