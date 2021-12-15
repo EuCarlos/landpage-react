@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "text": "Estou inteiramente satisfeito! estou aplicando todo o conhecimento que o ebook está me trazendo. Muito bom, parabéns!",
+        "user": {
+            "name": "Lucas Araújo Costa",
+            "avatar_url": "https://randomuser.me/api/portraits/men/54.jpg" 
+        }
+    },{
+        "id": 2,
+        "text": "Acho que esse tipo de material organizado é muito favoravel para o aprendizado! Achei super positivo o conteúdo feito desta forma, isso é tudo que precisava e mais um pouco. Parabéns pelo empenho!",
+        "user": {
+            "name": "Gustavo Santos Martins",
+            "avatar_url": "https://randomuser.me/api/portraits/men/64.jpg" 
+        }
+    },{
+        "id": 3,
+        "text": "Achei incrivel o trabalho que estão fazendo, ensinando passo a passo deste jeito é muito mais fácil... Parabéns pelo ótimo trabalho!",
+        "user": {
+            "name": "Jennifer Almeida Souza",
+            "avatar_url": "https://randomuser.me/api/portraits/women/0.jpg" 
+        }
+    }
+]
