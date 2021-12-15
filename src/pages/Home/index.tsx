@@ -3,6 +3,7 @@ import styles from "./styles.module.sass"
 import { TiHomeOutline, TiSocialDribbble, TiSocialGithub, TiSocialInstagram, TiSocialLinkedin } from "react-icons/ti";
 import image from "../../images/image.svg"
 import { Menu } from "../../components/Menu";
+import { MessageList } from "../../components/MessageList";
 
 export function Home () {
     return (
@@ -18,6 +19,9 @@ export function Home () {
                         <h2>Subtitle</h2>
                         <p>Mollit reprehenderit Lorem fugiat labore do dolore qui tempor nostrud eiusmod. Incididunt deserunt duis ad laboris incididunt qui laborum amet et laborum laborum duis elit. Lorem duis anim voluptate consectetur dolore pariatur do culpa. Enim eiusmod minim elit velit cupidatat minim aliqua incididunt sunt do elit. Enim ea qui dolore dolore esse et ad.</p>
                         <p>Laboris officia quis fugiat excepteur culpa laborum ullamco. Ullamco occaecat Lorem ipsum nostrud quis aliquip nisi tempor irure consectetur voluptate culpa. Magna consectetur culpa quis ex adipisicing Lorem fugiat. Ullamco culpa est consequat ipsum labore cillum adipisicing deserunt labore amet magna. Ea Lorem Lorem irure irure. Et eu non reprehenderit sunt magna deserunt velit enim laborum ut adipisicing commodo ut.</p>
+
+                        <MessageList />
+
                         <p>Eiusmod pariatur duis amet ipsum. Aliquip deserunt tempor minim aute exercitation duis veniam ex quis aliquip magna labore minim fugiat. Ipsum sunt aliqua ex minim ex tempor occaecat fugiat non dolor ea nulla veniam. Aliqua in reprehenderit esse aute eiusmod ullamco consequat irure proident qui est adipisicing adipisicing. Minim ea ipsum adipisicing velit et ut occaecat. Ex voluptate reprehenderit reprehenderit veniam cupidatat quis sunt nostrud sunt.</p>
                         <p>Enim officia labore esse culpa est eu adipisicing magna irure pariatur enim. Est deserunt laborum enim proident in fugiat pariatur pariatur sint sit fugiat esse. Excepteur ut irure adipisicing tempor qui adipisicing. Lorem non id velit velit exercitation voluptate ullamco sunt.</p>
                     </div>
