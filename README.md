@@ -2,15 +2,13 @@
 ## Project description
 LandPage created with react and typescript inspired by the landpage of [Inbound Emotion](https://www.inboundemotion.com/es/diccionario-inbound-marketing)
 
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EuCarlos/landpage-react?style=flat-square">
-
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EuCarlos/landpage-react?color=orange&style=flat-square">
-
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EuCarlos/landpage-react?color=yellow&style=flat-square">
-
-<img alt="GitHub" src="https://img.shields.io/github/license/EuCarlos/landpage-react?style=flat-square">
-
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/eucarlos/landpage-react?style=flat-square">
+<p>
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EuCarlos/landpage-react?style=flat-square">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EuCarlos/landpage-react?color=orange&style=flat-square">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EuCarlos/landpage-react?color=yellow&style=flat-square">
+    <img alt="GitHub" src="https://img.shields.io/github/license/EuCarlos/landpage-react?style=flat-square">
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/eucarlos/landpage-react?style=flat-square">
+</p>
 
 ___
 ### Installation
@@ -52,7 +50,7 @@ Develop a functional landpage and integrate theory and practice of acquired know
 
 
 ### Project prototype
-<img src="./src/images/capa_do_projeto.png" alt="image" width="100%" /> 
+<img src="https://raw.githubusercontent.com/EuCarlos/landpage-react/main/src/images/capa_do_projeto.PNG" alt="image" width="100%" /> 
 
 The project is a landpage where a text (in Portuguese) with general information about the e-book is presented, with a form on the right side of the screen. On the website screen, comments from people who received your e-book by e-mail are also shown and report on the experience. At the bottom of the page there are buttons to access Github, LinkedIn, Dribbble, Instagram and the personal website of the landpage author.
 
