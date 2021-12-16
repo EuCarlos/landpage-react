@@ -15,15 +15,14 @@ export function Home () {
                         <div>
                             <img src={image} alt="Imagem do topo" />
                         </div>
-                        <h1>Title</h1>
-                        <h2>Subtitle</h2>
-                        <p>Mollit reprehenderit Lorem fugiat labore do dolore qui tempor nostrud eiusmod. Incididunt deserunt duis ad laboris incididunt qui laborum amet et laborum laborum duis elit. Lorem duis anim voluptate consectetur dolore pariatur do culpa. Enim eiusmod minim elit velit cupidatat minim aliqua incididunt sunt do elit. Enim ea qui dolore dolore esse et ad.</p>
-                        <p>Laboris officia quis fugiat excepteur culpa laborum ullamco. Ullamco occaecat Lorem ipsum nostrud quis aliquip nisi tempor irure consectetur voluptate culpa. Magna consectetur culpa quis ex adipisicing Lorem fugiat. Ullamco culpa est consequat ipsum labore cillum adipisicing deserunt labore amet magna. Ea Lorem Lorem irure irure. Et eu non reprehenderit sunt magna deserunt velit enim laborum ut adipisicing commodo ut.</p>
-
+                        <h1>Como utilizar o ReGex</h1>
+                        <h2>E-book que te ajudará a dominar o ReGex</h2>
+                        <p>Criamos o guia completo de <strong>Como utilizar o ReGex</strong> para quem quer se tornar um especialista e dominar as expressões regulares, de forma que obtenha a visão geral de boas práticas para melhorar as validações no código. Para obter o e-book é simples, basta preencher o formulário apresentando nesta pagina... eai, está pronto para ter o seu?</p>
+                        <p>No guia completo de <strong>Como utilizar o ReGex </strong> você vai encontrar muito conteudo para aumentar o seu repertório de estudos. Os tópicos são os seguintes: O que é o RegEx? E para que serve? Recursos, Flags, Meta-Caracteres, Grupos e Intervalos, Quantificadores, Âncora, Outros Meta-Caracteres, Expressões de Validação,  Aplicação na Programação e muito mais...</p>
                         <MessageList />
 
-                        <p>Eiusmod pariatur duis amet ipsum. Aliquip deserunt tempor minim aute exercitation duis veniam ex quis aliquip magna labore minim fugiat. Ipsum sunt aliqua ex minim ex tempor occaecat fugiat non dolor ea nulla veniam. Aliqua in reprehenderit esse aute eiusmod ullamco consequat irure proident qui est adipisicing adipisicing. Minim ea ipsum adipisicing velit et ut occaecat. Ex voluptate reprehenderit reprehenderit veniam cupidatat quis sunt nostrud sunt.</p>
-                        <p>Enim officia labore esse culpa est eu adipisicing magna irure pariatur enim. Est deserunt laborum enim proident in fugiat pariatur pariatur sint sit fugiat esse. Excepteur ut irure adipisicing tempor qui adipisicing. Lorem non id velit velit exercitation voluptate ullamco sunt.</p>
+                        <p>Entre você também na nossa comunidade open-source e contribua com esse projeto no github acessando o repositório <a href="https://github.com/EuCarlos/RegEx" target="blank">@EuCarlos/RegEx</a>. Tá! Mas como posso contribuir com a comunidade? Simples, basta você fazer um fork, fazer suas atualizações e mandar um pull request. E se estiver de acordo com as normas será aceita o mais breve possível. Ta bem, mas sou iniciante então não posso ajudar... muita calma, claro que pode ajudar, basta fazer pergunta e/ou responder às dúvidas da galera nas issue.</p>
+                        <p>Veja esse e outros projetos no meu portfólio pessoal, acessando <a href="https://carlosalves.now.sh/" target="blank">carlosalves.now.sh</a>. Lá você encontrará o acompanhamento com detalhes sobre o desenvolvimento de sites e sistemas feitos por mim no modelo de blog mostrando engenharia, estratégias, modelagens e arquitetura com uma linguagem simples de entender.</p>
                     </div>
 
                     <div className={styles.share}>

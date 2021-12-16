@@ -19,7 +19,7 @@ export function MessageList() {
         api
             .get<Message[]>('/messages')
             .then((response) => setMessages(response.data))
-            .catch((err) => alert("Ops, ocorreu um erro: " + err))
+            .catch((err) => console.erro("Ops, ocorreu um erro: " + err))
     }, [])
 
     return (
