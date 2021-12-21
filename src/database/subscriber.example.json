@@ -1,0 +1,52 @@
+[
+    {
+        "id": "fc5f4aae-62af-11ec-90d6-0242ac120003",
+        "name": "Carlos Alves",
+        "email": "contato@carlos.dev",
+        "company": "AWS",
+        "website": "https://aws.amazon.com/pt/",
+        "marketing": true,
+        "police": true,
+        "created_at": "21/12/2021 - 10:15"
+    },
+    {
+        "id": "aa230c07-60e9-46a9-975b-2c1fa1783f0f",
+        "name": "Rosane Melo",
+        "email": "contato@rosane.dev",
+        "company": "Azure",
+        "website": "https://azure.microsoft.com/",
+        "marketing": false,
+        "police": true,
+        "created_at": "21/12/2021 - 14:30"
+    },
+    {
+        "id": "14104ffe-62b0-11ec-90d6-0242ac120003",
+        "name": "Mathias Santos",
+        "email": "contato@mathias.dev",
+        "company": "Microsof",
+        "website": "https://microsoft.com/",
+        "marketing": true,
+        "police": true,
+        "created_at": "21/12/2021 - 15:01"
+    },
+    {
+        "id": "e82cc05e-6a52-452f-a554-76014bbe6747",
+        "name": "Arthur Oliveira",
+        "email": "contato@arthur.dev",
+        "company": "Google",
+        "website": "https://google.com/",
+        "marketing": false,
+        "police": true,
+        "created_at": "21/12/2021 - 16:27"
+    },
+    {
+        "id": "73c1437c-f974-42cf-b33e-a26f2faa254e",
+        "name": "Luana Correia",
+        "email": "contato@luana.dev",
+        "company": "IBM",
+        "website": "https://ibm.com/",
+        "marketing": true,
+        "police": true,
+        "created_at": "21/12/2021 - 21:20"
+    }
+]
