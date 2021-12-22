@@ -1,7 +1,61 @@
 .contentWrapper
-    
+    height: 100vh
+    overflow-y: scroll
     & .container
+        // height: 100%
         padding: 0
         margin: 0
         background: #EFD8FD
+        display: flex
+        justify-content: center
+        & .cards
+            // overflow: scroll
+            width: 60rem
+            background: #fff
+            & h1
+                font-size: 2rem
+                margin: 0
+                color: #560BAD
+                & span
+                    color: #84609b
+            & h2
+                font-size: 1rem
+                margin: 0
+            & a
+                color: #560bad
+            & .subscriber
+                border: 1px solid #560BAD
+                margin: .5rem
+                padding: 2rem
+                & .top
+                    display: flex
+                    flex-direction: row
+                    justify-content: space-between
+                & .status
+                    & p 
+                        margin: 0
+                        & span
+                            display: inline-block
+                            padding: 3px
+                            margin: 0 10px 2px 0
+                            border-radius: .5rem
+                            &.active
+                                background: #18c733
+                            &.no_active
+                                background: #e7f30c
+                        &.dates
+                            color: #9d9797 
+                            font-size: .8rem
+                            display: flex
+                            justify-content: end
+            & button
+                padding: .5rem
+                color: #fff
+                background: #560BAD
+                cursor: pointer
+                border: none
+                border-radius: .3rem
+                transition: background .7s
+                &:hover
+                    background: #84609b
 
